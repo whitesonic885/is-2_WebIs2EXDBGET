@@ -1,23 +1,21 @@
-Microsoft Visual Studio Solution File, Format Version 8.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "is2EXDBGET", "http://localhost/is2ex/is2EXDBGET/is2EXDBGET.csproj", "{1D15CF16-DB1E-40C9-A713-80702F75159D}"
-	ProjectSection(ProjectDependencies) = postProject
-	EndProjectSection
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "is2EXDBGET", "is2EXDBGET.csproj", "{C84E2F19-5850-4CF7-B08F-BF44481E7585}"
 EndProject
 Global
-	GlobalSection(SolutionConfiguration) = preSolution
-		Debug = Debug
-		Release = Release
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ProjectDependencies) = postSolution
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C84E2F19-5850-4CF7-B08F-BF44481E7585}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C84E2F19-5850-4CF7-B08F-BF44481E7585}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C84E2F19-5850-4CF7-B08F-BF44481E7585}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C84E2F19-5850-4CF7-B08F-BF44481E7585}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ProjectConfiguration) = postSolution
-		{1D15CF16-DB1E-40C9-A713-80702F75159D}.Debug.ActiveCfg = Debug|.NET
-		{1D15CF16-DB1E-40C9-A713-80702F75159D}.Debug.Build.0 = Debug|.NET
-		{1D15CF16-DB1E-40C9-A713-80702F75159D}.Release.ActiveCfg = Release|.NET
-		{1D15CF16-DB1E-40C9-A713-80702F75159D}.Release.Build.0 = Release|.NET
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-	EndGlobalSection
-	GlobalSection(ExtensibilityAddIns) = postSolution
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
